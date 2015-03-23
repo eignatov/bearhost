@@ -21,7 +21,7 @@
 						data-endspeed="300"
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="off"
-						style="z-index: 6">Domain Search</div>
+						style="z-index: 6">{$LANG.domainsearch}</div>
           <div class="tp-caption text4 sfl"
 						data-x="103"
 						data-hoffset="0"
@@ -33,7 +33,7 @@
 						data-endspeed="300"
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="off"
-						style="z-index: 6">Find your perfect name</div>
+						style="z-index: 6">{$LANG.domainfindperfect}</div>
           <div class="tp-caption sfb"
 						data-x="103"
 						data-hoffset="0"
@@ -48,7 +48,7 @@
 						style="z-index: 6">
             <form method="post" id="domain-searchform" action="cart.php?a=add&domain=register">
               <div>
-                <input class="input-text" name="sld" id="dsearch" value="Enter your domain name here..." type="text" onfocus="if(this.value=='Enter your domain name here...')this.value=''" onblur="if(this.value=='')this.value='Enter your domain name here...'" type="text" />
+                <input class="input-text" name="sld" id="dsearch" value="{$LANG.domainentername}" type="text" onfocus="if(this.value=='{$LANG.domainentername}')this.value=''" onblur="if(this.value=='')this.value='{$LANG.domainentername}'" type="text" />
                 
                 <select class="drlist" name="tld" id="tld">
                   <option value=".com">.com</option>
@@ -88,7 +88,7 @@
 						data-endspeed="300"
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="off"
-						style="z-index: 6">Write a Domain Name</div>
+						style="z-index: 6">{$LANG.domainwriteadomainname}</div>
           <div class="tp-caption tld_step sfb"
 						data-x="473"
 						data-hoffset="0"
