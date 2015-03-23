@@ -618,7 +618,7 @@ jQuery(document).ready(function(){
   
   <div class="one_half last">
     {$LANG.homehostingplan}
-    <p>Affordable. Reliable. Secure.</p>
+    <p>vasquez cacorro. Reliable. Secure.</p>
     <br/>
     <div class="plan_list">
       <ul class="feature_list">
