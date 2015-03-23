@@ -141,7 +141,7 @@
   <div class="clearfix"></div>
   <div class="section_holder12">
     <div class="container">
-      <h1 class="lt_title_big">{$LANG.hosting}<span>&nbsp {$LANG.hostingfeatures}</span></h1>
+      <h1 class="lt_title_big">{$LANG.hostinghome}<span>&nbsp {$LANG.hostingfeatures}</span></h1>
       <div class="lt_title_line"></div>
       <p class="lt_title_bottomtext">{$LANG.hostingtextfeatures}</p>
       <div class="clearfix"></div>
@@ -199,7 +199,7 @@
               <li>Free Domain Name</li>
               <li>Money back Guarantee</li>
             </ul>
-            <a class="singup_but" href="#">Sign Up</a> </div>
+            <a class="singup_but" href="http://www.bearhost.co/cart.php?a=add&pid=1">Sign Up</a> </div>
         </div>
         <div class="bottom_shape"></div>
       </div>
@@ -220,7 +220,7 @@
               <li>Free Domain Name</li>
               <li>Money back Guarantee</li>
             </ul>
-            <a class="singup_but" href="#">Sign Up</a> </div>
+            <a class="singup_but" href="http://www.bearhost.co/cart.php?a=add&pid=2">Sign Up</a> </div>
         </div>
         <div class="bottom_shape"></div>
       </div>
@@ -241,7 +241,7 @@
               <li>Free Domain Name</li>
               <li>Money back Guarantee</li>
             </ul>
-            <a class="singup_but" href="#">Sign Up</a> </div>
+            <a class="singup_but" href="http://www.bearhost.co/cart.php?a=add&pid=3">Sign Up</a> </div>
         </div>
         <div class="bottom_shape"></div>
       </div>
@@ -314,12 +314,12 @@
   <!--end section 3-->
   <div class="clearfix"></div>
   <div class="punchtext">
-    <div class="container">
-      <div class="text">
-        <h4 class="white margin_top1">Get Excellent Unique Web Hosting Layouts With HostGrid</h4>
-      </div>
-      <div class="but"> <a href="#" class="readmore_but2">Buy now!</a> </div>
+  <div class="container">
+    <div class="text">
+      <h4 class="white margin_top1">{$LANG.homescript}</h4>
     </div>
+    <div class="but"> <a href="/hg-webhosting.php" class="readmore_but2">{$LANG.homebuynow}</a> </div>
+  </div>
   </div>
   <!--end punch text-->
   <div class="clearfix"></div>
