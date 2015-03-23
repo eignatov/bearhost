@@ -151,68 +151,25 @@
             <li>
               <div class="one_fourth">
                 <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe05c;"></span></div>
-                <h5>Fast load time</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
+                <h5>{$LANG.hostingfastload}</h5>
               </div>
               <!-- end item-->
               
               <div class="one_fourth">
                 <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe034;"></span></div>
-                <h5>Included Apps</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
+                <h5>{$LANG.hostingappinstalled}</h5>
               </div>
               <!-- end item-->
               
               <div class="one_fourth active">
                 <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe086;"></span></div>
-                <h5>Domains and Emails</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
+                <h5>{$LANG.hostingdomainandemail}</h5>
               </div>
               <!-- end item-->
               
               <div class="one_fourth last">
                 <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe04a;"></span></div>
-                <h5>Great Support</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
-              </div>
-              <!-- end item--> 
-            </li>
-            <!--end item-->
-            
-            <li>
-              <div class="one_fourth">
-                <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe05c;"></span></div>
-                <h5>Fast load time</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
-              </div>
-              <!-- end item-->
-              
-              <div class="one_fourth">
-                <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe034;"></span></div>
-                <h5>Included Apps</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
-              </div>
-              <!-- end item-->
-              
-              <div class="one_fourth active">
-                <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe086;"></span></div>
-                <h5>Domains and Emails</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
-              </div>
-              <!-- end item-->
-              
-              <div class="one_fourth last">
-                <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe04a;"></span></div>
-                <h5>Great Support</h5>
-                <p>Lorem Ipsum is simply dummy text of 
-                  theprinting and typesetting it has the randomised wordswhich .</p>
+                <h5>{$LANG.hostinggreatsupport}</h5>
               </div>
               <!-- end item--> 
             </li>

@@ -1603,5 +1603,19 @@ $_LANG['homeanotherhost'] = "Hosting?";
 $_LANG['homewefreemigrate'] = "Migramos totalmente <strong>GRATIS</strong> toda la información de tu hosting anterior a los nuestros en un instante";
 $_LANG['editar'] = "editar";
 
+# Plantilla Hosting Share
+
+$_LANG['hostingfastload'] = "Super carga";
+$_LANG['hostingappinstalled'] = "Aplicaciones pre instaladas";
+$_LANG['hostingdomainandemail'] = "Dominios y Emails";
+$_LANG['hostinggreatsupport'] = "Soporte 24/7";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
+$_LANG['hosting'] = "";
 
 
