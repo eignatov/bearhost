@@ -254,9 +254,9 @@
   <div class="clearfix"></div>
   <div class="section_holder3 two">
     <div class="container">
-      <h1 class="lt_title_big">All Plans <span>Included</span></h1>
+      {$LANG.hostingallinclude}
       <div class="lt_title_line"></div>
-      <p class="lt_title_bottomtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue</p>
+      <p class="lt_title_bottomtext">{$LANG.hostingallincludetext}</p>
       <div class="left">
         <div class="list_holder">
           <div class="icon_holder">
