@@ -1,0 +1,238 @@
+x/*
+ * jquery.selectBoxIt.css 2.9.0
+ * Author: @gregfranko
+ */
+
+/* Div container holding the dropdown list */
+.selectboxit-container {
+  position: relative;
+  display: inline-block;
+  /* Prevents text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* Dropdown List Box */
+.selectboxit-container .selectboxit {
+  height: 30px; /* Height of the select box */
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+  border-radius: 6px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.selectboxit-container .selectboxit:focus {
+  outline: 0;
+}
+
+.selectboxit-container .selectboxit.selectboxit-disabled {
+  cursor: default;
+}
+
+/* Dropdown list Default Icon Positioning */
+.selectboxit-default-icon {
+  float: left;
+}
+
+/* Dropdown List Box Text */
+.selectboxit-text {
+  font: 14px Helvetica, Arial;
+  text-indent: 5px;
+  line-height: 30px;
+  overflow: hidden;
+  float: left;
+  white-space: nowrap;
+  color: #3b3b3b;
+}
+
+/* Dropdown List Options List*/
+.selectboxit-container .selectboxit-options {
+  min-width: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  overflow: auto;
+  cursor: pointer;
+  display: none;
+  z-index: 9999999999999;
+  outline: none;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  -moz-box-shadow: none; /* Firefox */
+  -webkit-box-shadow: none; /* Safari, Chrome */
+  box-shadow: none; /* CSS3 */
+  border-radius: 6px;
+  text-align: left;
+  margin-top: 7px;
+}
+
+/* Overrides Bootstrap drop down option style */
+/*.selectboxit-options .selectboxit-option.active .selectboxit-option-anchor {
+  color: #fff;
+}
+*/
+.selectboxit-option .selectboxit-option-anchor {
+  padding: 0px 3px;
+  line-height: 30px;
+}
+
+.selectboxit-option .selectboxit-option-anchor:hover {
+  text-decoration: none;
+}
+
+/* Dropdown List Individual Options */
+.selectboxit-option, .selectboxit-optgroup-header {
+  line-height: 30px; /* Height of Individual Select Box Options */
+  overflow: hidden;
+  white-space: nowrap;
+  list-style: none;
+  margin: 0;
+}
+
+/* The first drop down option */
+/* The last drop down option */
+.selectboxit-option-last {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  margin-bottom: 0 !important;
+}
+
+/* Dropdown List Optgroup Headers */
+.selectboxit-optgroup-header {
+  font-weight: bold;
+}
+
+/* Dropdown List Optgroup Options */
+.selectboxit-optgroup-option {
+  text-indent: 20px;
+}
+
+/* Dropdown List Optgroup Header hover psuedo class */
+.selectboxit-optgroup-header[data-disabled='true']:hover {
+  cursor: default;
+}
+
+/* Dropdown List Down Arrow Container (if an image is not used) */
+.selectboxit-arrow-container {
+  /* Positions the down arrow */
+  float: right;
+  position: relative;
+  padding-left: 35px;
+  top: -2px;
+}
+
+/* Dropdown List Down Arrow */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  /* Horizontally centers the down arrow */
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  width: 20px;
+}
+
+/* Dropdown List Down Arrow For jQueryUI and jQuery Mobile */
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow.ui-icon {
+  top: 30%;
+}
+
+/* Dropdown List Individual Option Icon Positioning */
+.selectboxit-option-icon {
+  float: left;
+}
+
+/* Dropdown List Individual Option Image Positioning */
+.selectboxit-option-icon-url {
+  width: 18px;
+  height: 18px;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+}
+
+.selectboxit-default-icon.selectboxit-option-icon-url {
+  margin-left: 5px;
+}
+
+/* jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon {
+  background-color: inherit;
+}
+
+/* Another jQueryUI and jQuery Mobile compatability fix - Feel free to remove this style if you are not using jQuery Mobile */
+.jqueryui .ui-icon-triangle-1-s {
+  background-position: -64px -16px;
+}
+
+
+.selectboxit-options.dropdown-menu {
+	background: white !important;	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-top: 1px solid #ccc;
+	border-top: 1px solid rgba(0,0,0,.2);
+	padding: 7px 7px 0 7px !important;
+}
+
+.selectboxit-options.dropdown-menu li a {
+ border: 1px solid #c8c8c8;
+background: rgb(241,241,241); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVlZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(241,241,241,1) 0%, rgba(238,238,238,1) 47%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(241,241,241,1)), color-stop(47%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(241,241,241,1) 0%,rgba(238,238,238,1) 47%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(241,241,241,1) 0%,rgba(238,238,238,1) 47%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(241,241,241,1) 0%,rgba(238,238,238,1) 47%,rgba(238,238,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(241,241,241,1) 0%,rgba(238,238,238,1) 47%,rgba(238,238,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#eeeeee',GradientType=0 ); /* IE6-8 */
+
+
+ cursor: pointer;
+ display: block;
+ font-weight: 300;
+ line-height: 18px;
+ margin-bottom: 0;
+ text-align: center;
+ text-decoration: none;
+ zoom: 1;
+
+  color: #3b3b3b !important;
+-moz-box-shadow: 0 2px 2px rgba(83,88,94,.05), inset 0 -2px 2px rgba(189,198,207,.17), inset 0px 1px 0px rgba(255,255,255,0.7);
+  -webkit-box-shadow: 0 2px 2px rgba(83,88,94,.05), inset 0 -2px 2px rgba(189,198,207,.17), inset 0px 1px 0px rgba(255,255,255,0.7);
+  box-shadow: 0 2px 2px rgba(83,88,94,.05), inset 0 -2px 2px rgba(189,198,207,.17), inset 0px 1px 0px rgba(255,255,255,0.7);
+-moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 6px 13px;
+  font-size: 13px;
+  margin-bottom: 7px;
+  padding: 4px 13px;
+  background-clip: border-box;
+}
+
+
+.selectboxit-options.dropdown-menu li a:hover {
+  background-color: white; 
+   color: #8a8787 !important;
+
+}
+
+.selectboxit-options.dropdown-menu li a {
+	text-align: left;
+}
+
+#languagefrm .selectboxit-options.dropdown-menu {
+	width: 229px;
+}

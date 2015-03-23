@@ -1,0 +1,358 @@
+/* *****************************************************
+
+     WHMCS Printable Invoice CSS Stylesheet
+     Created: 1st September 2011
+     Last Updated: 20th November 2011
+     Version: 1.3
+
+     This file is part of the WHMCS Billing Software
+       http://www.whmcs.com/
+
+***************************************************** */
+
+body {
+    margin: 30px;
+    background-color: #eaeaea;
+}
+
+body,td,input,select {
+    font-family: Arial;
+    font-size: 13px;
+    color: #000000;
+	line-height:1.4em;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.clear { 
+	clear: both;
+}
+
+form {
+    margin: 0px;
+}
+
+a {
+    font-size: 14px;
+    color: #1E598A;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textright {
+    text-align: right;
+}
+
+.wrapper {
+    margin: 0 auto 30px;
+    padding: 30px;
+    max-width: 640px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,.1);
+ 	-webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
+ 	box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+
+.date, .duedate {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.11), inset 0 -2px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.11), inset 0 -2px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 3px rgba(0,0,0,.11), inset 0 -2px 2px rgba(0,0,0,.05);
+	border: solid 1px #cfcfcf;
+	float: left;
+	font-size:120%;
+	padding:7px 12px;
+	margin-left:15px;
+}
+
+.date strong {
+	color:#007cb6;
+}
+.duedate strong {
+	color:#af0000;
+}
+
+.header {
+    margin: 0 0 15px 0;
+    width: 100%;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.address {
+	background:#eaeaea;
+	width:100%;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.address td {
+	background-color: #fff;
+	border:1px solid #ddd;
+	padding:15px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	vertical-align:top;
+}
+
+table.items {
+    width: 100%;
+    background-color: #ccc;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-left: 1px solid #ccc;
+}
+
+table.items tr.title td {
+    margin: 0;
+    padding: 8px 12px;
+    line-height: 16px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-left: 0;
+	color:#333;
+    font-size: 14px;
+    font-weight: bold;
+	background-color: #fafafa;
+	background-image: -webkit-linear-gradient(bottom, rgba(1,2,2,.03), rgba(255,255,255,.03));
+	background-image: -moz-linear-gradient(bottom, rgba(1,2,2,.03), rgba(255,255,255,.03));
+	background-image: -o-linear-gradient(bottom, rgba(1,2,2,.03), rgba(255,255,255,.03));
+	background-image: -ms-linear-gradient(bottom, rgba(1,2,2,.03), rgba(255,255,255,.03));
+	background-image: linear-gradient(to top, rgba(1,2,2,.03), rgba(255,255,255,.03));
+}
+
+table.items td {
+    margin: 0;
+    padding: 8px;
+    line-height: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+table.items tr:last-child td {
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 25px 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+	line-height: 36px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.unpaid {
+    font-size: 18px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.paid {
+    font-size: 18px;
+    color: #779500;
+    font-weight: bold;
+}
+
+.refunded {
+    font-size: 18px;
+    color: #224488;
+    font-weight: bold;
+}
+
+.cancelled {
+    font-size: 18px;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.collections {
+    font-size: 18px;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.creditbox {
+    margin: 0 auto 15px auto;
+    padding: 10px;
+    border: 1px dashed #cc0000;
+    font-weight: bold;
+    background-color: #FBEEEB;
+    text-align: center;
+    width: 95%;
+    color: #cc0000;
+}
+
+.show760 { display: none; }
+
+
+@media (max-width: 760px) {
+
+body {
+    margin: 15px;
+}
+
+.wrapper {
+    margin-bottom: 15px;
+    max-width: none;
+}
+
+.show760 {
+    display: inline-block;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+table.no-more-tables {
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+table.no-more-tables,
+.no-more-tables thead,
+.no-more-tables tbody,
+.no-more-tables th,
+.no-more-tables td,
+.no-more-tables tr {
+ display: block;
+}
+
+.no-more-tables {
+ border-bottom: 0;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+.no-more-tables thead tr {
+ position: absolute;
+ top: -9999px;
+ left: -9999px;
+}
+
+.no-more-tables tr {
+ border-bottom: 1px solid #ccc;
+}
+
+.no-more-tables td {
+ /* Behave  like a "row" */
+ border: none;
+ border-bottom: 1px solid #eee;
+ position: relative;
+ padding-left: 45% !important;
+ text-align: left;
+ white-space: normal;
+}
+
+.no-more-tables td:before {
+ /* Now like a table header */
+ position: absolute;
+ /* Top/left values mimic padding */
+ top: 8px;
+ left: 8px;
+ width: 45%;
+ padding-right: 10px;
+ white-space: nowrap;
+ text-align:left;
+ font-weight: bold;
+}
+
+/* Label the data */
+.no-more-tables td:before {
+ content: attr(data-title);
+}
+
+.no-more-tables td.tdhide {
+ display: none !important;
+}
+
+table.address {
+    background: 0;
+}
+
+table.header tr, table.header td, table.address tr {
+    border-bottom: 0;
+}
+
+table.header td, table.address td {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    width: auto;
+}
+
+.address td.paddingzero {
+ padding-left: 8px !important;
+}
+
+table.header td { padding: 0 !important; }
+
+.dates {
+    float: none;
+}
+
+.date, .duedate {
+    float: none;
+    margin: 10px 0 0;
+    width: auto;
+}
+
+}
+
+@media (max-width: 480px) {
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 20px;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.1);
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+
+.no-more-tables td.paddingzero {
+ padding-left: 8px !important;
+}
+
+}
