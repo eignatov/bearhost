@@ -1604,7 +1604,9 @@ $_LANG['homewefreemigrate'] = "Migramos totalmente <strong>GRATIS</strong> toda 
 $_LANG['editar'] = "editar";
 
 # Plantilla Hosting Share
-
+$_LANG['hosting'] = "Web Hosting Economico";
+$_LANG['hostingfeatures'] = "Unico en Colombia";
+$_LANG['hostingtextfeatures'] = "Ofrecemos el mejor servicio de <strong>WEBHOSTING</strong> en <strong>COLOMBIA</strong> y <strong>AMERICA LATINA</strong>, todos nuestros servidores e infraestructura están en Colombia, es por eso que nuestros precios son realmente <strong>competitivos</strong>, Además que podemos brindar la mejor <strong>calidad</strong> en nuestro servicio con IP´S Colombianas y contamos con Profesionales altamente calificados.";
 $_LANG['hostingfastload'] = "Super carga";
 $_LANG['hostingappinstalled'] = "Aplicaciones pre instaladas";
 $_LANG['hostingdomainandemail'] = "Dominios y Emails";

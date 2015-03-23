@@ -141,9 +141,9 @@
   <div class="clearfix"></div>
   <div class="section_holder12">
     <div class="container">
-      <h1 class="lt_title_big">{$LANG.hosting}<span>&nbsp {$LANG.features}</span></h1>
+      <h1 class="lt_title_big">{$LANG.hosting}<span>&nbsp {$LANG.hostingfeatures}</span></h1>
       <div class="lt_title_line"></div>
-      <p class="lt_title_bottomtext">{$LANG.textfeatures}</p>
+      <p class="lt_title_bottomtext">{$LANG.hostingtextfeatures}</p>
       <div class="clearfix"></div>
       <section class="slider">
         <div class="flexslider style2">
