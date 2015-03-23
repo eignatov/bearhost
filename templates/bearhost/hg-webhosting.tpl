@@ -254,7 +254,7 @@
   <div class="clearfix"></div>
   <div class="section_holder3 two">
     <div class="container">
-      {$LANG.hostingallinclude}
+      <h1 class="lt_title_big">{$LANG.hostingallinclude}</h1> 
       <div class="lt_title_line"></div>
       <p class="lt_title_bottomtext">{$LANG.hostingallincludetext}</p>
       <div class="left">
