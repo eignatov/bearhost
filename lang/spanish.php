@@ -1620,4 +1620,15 @@ $_LANG['hosting'] = "";
 $_LANG['hosting'] = "";
 $_LANG['hosting'] = "";
 
+# Plantilla Search Domain
+$_LANG['domainsearch'] = "Buscar Dominio";
+$_LANG['domainfindperfect'] = " Encuentra el Dominio Perfecto.";
+$_LANG['domainentername'] = "Ingrese el nombre de dominio aquí";
+$_LANG['domainwriteadomainname'] = "Escribe un nombre de dominio.";
+$_LANG['domain'] = "";
+$_LANG['domain'] = "";
+$_LANG['domain'] = "";
+$_LANG['domain'] = "";
+
+
 
