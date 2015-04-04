@@ -53,7 +53,7 @@
       </ul>
     </div>
     <div class="one_third last">
-    <h4 class="padd_bot2">Affiliate Program</h4>
+    <h4 class="white">Affiliate Program</h4>
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe060;"></span></div>
       <div class="text">
@@ -63,7 +63,7 @@
     </div>
     <!--end item-->
     
-    <div class="affiliates active">
+    <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe001;"></span></div>
       <div class="text">
         <h6 class="lessmar2">Refer Customers</h6>
