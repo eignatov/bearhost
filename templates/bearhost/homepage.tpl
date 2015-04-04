@@ -659,11 +659,3 @@
 </div>
 </div>
 <div class="clearfix"></div>
-
-<!--end section-->
-
-<div class="clearfix"></div>
-
-<!--end punch text-->
-
-<div class="clearfix"></div>

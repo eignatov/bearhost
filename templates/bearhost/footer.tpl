@@ -53,39 +53,34 @@
       </ul>
     </div>
     <div class="one_third last">
-    <h4 class="padd_bot2">{$LANG.homecheaphosting}</h4>
-    <ul class="tabs11">
-      <li><a href="#example-11-tab-1" target="_self">{$LANG.homewhatsinclude} </a></li>
-      <li><a class="last" href="#example-11-tab-2" target="_self">{$LANG.hometransferyoursite}</a></li>
-    </ul>
-    <div class="tabs-content11">
-
-      <div id="example-11-tab-1" class="tabs-panel11">
-        <ul class="tablist">
-          <li><i class="fa fa-check"></i> Unlimited disk space</li>
-          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-          <li><i class="fa fa-check"></i> Host unlimited domains</li>
-          <li><i class="fa fa-check"></i> Free domain registration</li>
-          <li><i class="fa fa-check"></i> Free SiteLock security suite (a $120 value)</li>
-          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-        </ul>
-        <a href="#" class="readmore_but3">Sign Up Now</a> </div>
-      <!-- end tab 1 -->
-      
-      <div id="example-11-tab-2" class="tabs-panel11">
-        <ul class="tablist">
-          <li><i class="fa fa-check"></i> Unlimited disk space</li>
-          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-          <li><i class="fa fa-check"></i> Host unlimited domains</li>
-          <li><i class="fa fa-check"></i> Free domain registration</li>
-          <li><i class="fa fa-check"></i> Free SiteLock security suite (a $120 value)</li>
-          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
-        </ul>
-        <a href="#" class="readmore_but3">Sign Up Now</a> </div>
-      <!-- end tab 2 --> 
-      
-    </div>
+    <h4 class="padd_bot2">Affiliate Program</h4>
+    <div class="affiliates">
+      <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe060;"></span></div>
+      <div class="text">
+        <h6 class="lessmar2">Sign Up</h6>
+        <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
       </div>
+    </div>
+    <!--end item-->
+    
+    <div class="affiliates active">
+      <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe001;"></span></div>
+      <div class="text">
+        <h6 class="lessmar2">Refer Customers</h6>
+        <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
+      </div>
+    </div>
+    <!--end item-->
+    
+    <div class="affiliates">
+      <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe06b;"></span></div>
+      <div class="text">
+        <h6 class="lessmar2">Earn Money</h6>
+        <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
+      </div>
+    </div>
+    <!--end item--> 
+    </div>
     <!--end need help--> 
   </div>
 </div>
