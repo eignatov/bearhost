@@ -148,16 +148,15 @@
   <div class="clearfix"></div>
   <div class="section_holder1 two">
     <div class="container">
-      <h1 class="lt_title_big">{$LANG.domainselectyourdomain}<span>{$LANG.domainyouomain}</span></h1>
+      <h1 class="lt_title_big">{$LANG.domainselectyourdomain}<span>{$LANG.domainyoudomain}</span></h1>
       <div class="lt_title_line"></div>
-      <p class="lt_title_bottomtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue</p>
+      <p class="lt_title_bottomtext">{$LANG.domaintext1}</p>
       <div class="box">
         <h1 class="bold lessmar">.com</h1>
-        <h4 class="uppercase lessmar"><span class="dashed">$12.99</span> &nbsp;$10.99</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer sit 
-          adipiscing elit Suspendisse et</p>
+        <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotcomdashed}</span> &nbsp;{$LANG.domainpricedotcom}</h4>
+        <p>{$LANG.domaintextdomain}</p>
         <br/>
-        <a href="#">Register</a> </div>
+        <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item-->
       
       <div class="box two">
@@ -166,7 +165,7 @@
         <p>Lorem ipsum dolor sit amet, consectetuer sit 
           adipiscing elit Suspendisse et</p>
         <br/>
-        <a href="#">Register</a> </div>
+        <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item-->
       
       <div class="box three">
@@ -175,7 +174,7 @@
         <p>Lorem ipsum dolor sit amet, consectetuer sit 
           adipiscing elit Suspendisse et</p>
         <br/>
-        <a href="#">Register</a> </div>
+        <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item--> 
       
     </div>
