@@ -154,25 +154,23 @@
       <div class="box">
         <h1 class="bold lessmar">.com</h1>
         <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotcomdashed}</span> &nbsp;{$LANG.domainpricedotcom}</h4>
-        <p>{$LANG.domaintextdomain}</p>
+        <p>{$LANG.domaintextdotcom}</p>
         <br/>
         <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item-->
       
       <div class="box two">
         <h1 class="bold lessmar">.org</h1>
-        <h4 class="uppercase lessmar"><span class="dashed">$12.99</span> &nbsp;$10.99</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer sit 
-          adipiscing elit Suspendisse et</p>
+        <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotorgdashed}</span> &nbsp;{$LANG.domainpricedotorg}</h4>
+        <p>{$LANG.domaintextdotorg}</p>
         <br/>
         <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item-->
       
       <div class="box three">
         <h1 class="bold lessmar">.net</h1>
-        <h4 class="uppercase lessmar"><span class="dashed">$12.99</span> &nbsp;$10.99</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer sit 
-          adipiscing elit Suspendisse et</p>
+        <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotnetdashed}</span> &nbsp;${$LANG.domainpricedotnet}</h4>
+        <p>{$LANG.domaintextdotnet}</p>
         <br/>
         <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item--> 
@@ -185,7 +183,7 @@
   <div class="section_holder4 two">
     <div class="container">
       <div class="one_half">
-        <h1 class="lt_title_big_left white">Domain <span>Features</span></h1>
+        <h1 class="lt_title_big_left white">Dominio <span>Caracteristicas</span></h1>
         <div class="clearfix"></div>
         <div class="section_title_line four"></div>
         <div class="clearfix"></div>
@@ -195,22 +193,22 @@
               <li>
                 <div class="one_third">
                   <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe086;"></span></div>
-                  <h5 class="white lessmar2">Email Forward</h5>
-                  <p class="white">Lorem ipsum dolor sit adipiscing amet sit et sit justo elit ipsum.</p>
+                  <h5 class="white lessmar2">Reenvio de Email</h5>
+                  <p class="white">reenvia todos tus emails a cualquier dominio</p>
                 </div>
                 <!--end item-->
                 
                 <div class="one_third active">
                   <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe037;"></span></div>
-                  <h5 class="white lessmar2">DNS Control</h5>
-                  <p class="white">Lorem ipsum dolor sit adipiscing amet sit et sit justo elit ipsum.</p>
+                  <h5 class="white lessmar2">Control DNS</h5>
+                  <p class="white">controla y edita la zona DNS.</p>
                 </div>
                 <!--end item-->
                 
                 <div class="one_third last">
                   <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe08e;"></span></div>
-                  <h5 class="white lessmar2">Protect Your Privacy</h5>
-                  <p class="white">Lorem ipsum dolor sit adipiscing amet sit et sit justo elit ipsum.</p>
+                  <h5 class="white lessmar2">Proteje tu Privacidad</h5>
+                  <p class="white">protege tu informacion y detalles de dominio.</p>
                 </div>
                 <!--end item--> 
                 
@@ -255,19 +253,19 @@
   <div class="clearfix"></div>
   <div class="section_holder5">
     <div class="container">
-      <h1 class="lt_title_big">Check Out our <span>Pricing</span></h1>
+      <h1 class="lt_title_big">Dale una Mirada a <span>Nuestros Precios</span></h1>
       <div class="lt_title_line"></div>
-      <p class="lt_title_bottomtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue</p>
+      <p class="lt_title_bottomtext">Encuentro cualquier dominio,a demás frecemos un servicio fenomenal, con servidores en colombia,  con precios altamente competitivos, y con el mejor soporte en español</p>
       <div class="one_full">
         <div class="domain_pricetable_holder">
           <div class="table-style">
             <table class="table-list3">
               <tr>
                 <th></th>
-                <th>Registration</th>
-                <th>Domain Transfer</th>
+                <th>Registro</th>
+                <th>Transferencia</th>
                 <th>DNS Management</th>
-                <th>Whois Privacy</th>
+                <th>Privacidad</th>
                 <th></th>
               </tr>
               <tr>
@@ -276,7 +274,7 @@
                 <td>$2.99</td>
                 <td>Free</td>
                 <td>$6.99</td>
-                <td><a href="#">Register</a></td>
+                <td><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
               <tr>
                 <td class="hilit">.org</td>
@@ -284,7 +282,7 @@
                 <td class="hilit">$2.99</td>
                 <td class="hilit">Free</td>
                 <td class="hilit">$6.99</td>
-                <td class="hilit"><a href="#">Register</a></td>
+                <td class="hilit"><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
               <tr>
                 <td>.biz</td>
@@ -292,7 +290,7 @@
                 <td>$2.99</td>
                 <td>Free</td>
                 <td>$6.99</td>
-                <td><a href="#">Register</a></td>
+                <td><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
               <tr>
                 <td class="hilit">.org</td>
@@ -300,7 +298,7 @@
                 <td class="hilit">$2.99</td>
                 <td class="hilit">Free</td>
                 <td class="hilit">$6.99</td>
-                <td class="hilit"><a href="#">Register</a></td>
+                <td class="hilit"><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
               <tr>
                 <td>.com</td>
@@ -308,7 +306,7 @@
                 <td>$2.99</td>
                 <td>Free</td>
                 <td>$6.99</td>
-                <td><a href="#">Register</a></td>
+                <td><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
               <tr>
                 <td class="hilit">.org</td>
@@ -316,7 +314,7 @@
                 <td class="hilit">$2.99</td>
                 <td class="hilit">Free</td>
                 <td class="hilit">$6.99</td>
-                <td class="hilit"><a href="#">Register</a></td>
+                <td class="hilit"><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
               <tr>
                 <td>.com</td>
@@ -324,7 +322,7 @@
                 <td>$2.99</td>
                 <td>Free</td>
                 <td>$6.99</td>
-                <td><a href="#">Register</a></td>
+                <td><a href="#">{$LANG.domainsregister}</a></td>
               </tr>
             </table>
           </div>
@@ -338,7 +336,7 @@
   <div class="section_holder6 two">
     <div class="container">
       <div class="one_half">
-        <h1 class="lt_title_big_left white">Private and <span>Secure</span></h1>
+        <h1 class="lt_title_big_left white">Privado y <span>Seguro</span></h1>
         <div class="clearfix"></div>
         <div class="section_title_line four"></div>
         <div class="clearfix"></div>
@@ -346,20 +344,20 @@
           <div class="flexslider style2">
             <ul class="slides">
               <li>
-                <h4 class="white">Keep your domain private and secure!</h4>
-                <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <h4 class="white">Manten tu Dominio Privado y Seguro!</h4>
+                <p class="white"> Los piratas informáticos y quienes envían correo no solicitado lo usan para recopilar listas de correo electrónico y robar dominios, protege tu dominio AHORA! </p>
                 <br/>
-                <h4 class="white">Keep your domain private and secure!</h4>
-                <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <h4 class="white">a demás!</h4>
+                <p class="white">Reemplazamos tu nombre y detalles de contacto por los de nuestra empresa asociada, Domains By Proxy. Nadie, excepto nosotros, verá nunca tu nombre, dirección, correo electrónico ni número de teléfono.; </p>
               </li>
               <!--end item-->
               
               <li>
-                <h4 class="white">Keep your domain private and secure!</h4>
-                <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <h4 class="white">no pierdes el control!</h4>
+                <p class="white">ún controlas tus dominios y todas las direcciones de correo electrónico para ellos, así como el derecho de vender, renovar o transferirlos. Tus dominios aún son 100% tuyos. </p>
                 <br/>
-                <h4 class="white">Keep your domain private and secure!</h4>
-                <p class="white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+                <h4 class="white">Duerme tranquilo!</h4>
+                <p class="white">Puedes dormir más tranquilo al saber que tu información personal no se exhibe al mundo entero.</p>
               </li>
               <!--end item-->
             </ul>
@@ -369,7 +367,7 @@
       <!--end left-->
       
       <div class="one_half last">
-        <h1 class="lt_title_big_left white">Why Choose <span>HostGrid ?</span></h1>
+        <h1 class="lt_title_big_left white">Por qué Escoger <span>BearHost.co ?</span></h1>
         <div class="clearfix"></div>
         <div class="section_title_line four"></div>
         <div class="clearfix"></div>
@@ -383,9 +381,9 @@
                     <div class="img"></div>
                     </a> </div>
                   <a href="#">
-                  <h5 class="white lessmar">Fast Hosting</h5>
+                  <h5 class="white lessmar">Hosting Rapido y Economico</h5>
                   </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
+                  <p class="white">Precios Compentitivos, Rendimiento total.</p>
                 </div>
                 <!--end item-->
                 
@@ -395,9 +393,9 @@
                     <div class="img two"></div>
                     </a> </div>
                   <a href="#">
-                  <h5 class="white lessmar">Website Protection</h5>
+                  <h5 class="white lessmar">Proteccion de Sitios</h5>
                   </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
+                  <p class="white">Contamos con un sistema avanzado de proteccion AntiDDOS y Antimalware muy potente.</p>
                 </div>
                 <!--end item-->
                 
@@ -407,53 +405,15 @@
                     <div class="img three"></div>
                     </a> </div>
                   <a href="#">
-                  <h5 class="white lessmar">Expert Support</h5>
+                  <h5 class="white lessmar">Soporte Profesional</h5>
                   </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
+                  <p class="white">Profesionales y tecnicos altamente calificados para brindarle el mejor soporte las 24/7 los 365 dias del año.</p>
                 </div>
                 <!--end item--> 
               </li>
               <!--end item-->
               
-              <li>
-                <div class="one_third">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Fast Hosting</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item-->
-                
-                <div class="one_third">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img two"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Website Protection</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item-->
-                
-                <div class="one_third last">
-                  <div class="why_choose_img"> <a href="#">
-                    <div class="overley"></div>
-                    <div class="img three"></div>
-                    </a> </div>
-                  <a href="#">
-                  <h5 class="white lessmar">Expert Support</h5>
-                  </a>
-                  <p class="white">Lorem ipsum dolor sit amet, consectetuer sit et justo adipiscing.</p>
-                </div>
-                <!--end item--> 
-                
-              </li>
-              <!--end item-->
+               <!--end item-->
             </ul>
           </div>
         </section>
@@ -466,21 +426,21 @@
     <div class="container">
       <div class="one_half"> <img src="templates/{$template}/html/images/site-img22.png" alt=""/> </div>
       <div class="one_half last">
-        <h4>Your personal information is safe with us.</h4>
+        <h4>Tu informacion personal esta protegida con nosotros.</h4>
         <ul class="list">
-          <li><i class="fa fa-check"></i> Nullam turpis. Cras dapibus, orci rutrum adipiscing luctus, nisl magna tempus.</li>
-          <li><i class="fa fa-check"></i> Etiam enim. Suspendisse imperdiet cursus nisi. Maecenas sed nisl nec lectus.</li>
-          <li><i class="fa fa-check"></i> Vivamus sit amet felis. Vivamus et justo in nunc pharetra semper.</li>
+          <li><i class="fa fa-check"></i> Encriptamos todos nuestros datos.</li>
+          <li><i class="fa fa-check"></i> No vendemos su informacion personal.</li>
+          <li><i class="fa fa-check"></i> Protegemos su integridad.</li>
         </ul>
-        <a class="readmore_but4" href="#">Read more</a><a class="readmore_but5" href="#">Order domain</a> </div>
+        <a class="readmore_but4" href="#">Ver mas</a><a class="readmore_but5" href="#">Ordenar Dominio</a> </div>
     </div>
   </div>
   <div class="punchtext">
     <div class="container">
       <div class="text">
-        <h4 class="white margin_top1">Get Excellent Unique Web Hosting Layouts With HostGrid</h4>
+        <h4 class="white margin_top1">Consigue un excelente y unico servicio de Webhosting</h4>
       </div>
-      <div class="but"> <a href="#" class="readmore_but2">Buy now!</a> </div>
+      <div class="but"> <a href="#" class="readmore_but2">Comprar Ahora!</a> </div>
     </div>
   </div>
   <!--end punch text-->
