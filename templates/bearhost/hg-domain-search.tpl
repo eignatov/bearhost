@@ -112,7 +112,7 @@
 						data-endspeed="300"
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="off"
-						style="z-index: 6">Select Your TLD</div>
+						style="z-index: 6">{$LANG.domainselectyourtdl}</div>
           <div class="tp-caption tld_step sfr"
 						data-x="840"
 						data-hoffset="0"
@@ -136,7 +136,7 @@
 						data-endspeed="300"
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="off"
-						style="z-index: 6">Check Availability</div>
+						style="z-index: 6">{$LANG.domaincheckavailability}</div>
         </li>
       </ul>
       <div class="tp-bannertimer"></div>
@@ -148,7 +148,7 @@
   <div class="clearfix"></div>
   <div class="section_holder1 two">
     <div class="container">
-      <h1 class="lt_title_big">Select your <span>Domain</span></h1>
+      <h1 class="lt_title_big">{$LANG.domainselectyourdomain}<span>{$LANG.domainyouomain}</span></h1>
       <div class="lt_title_line"></div>
       <p class="lt_title_bottomtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue</p>
       <div class="box">

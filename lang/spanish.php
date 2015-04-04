@@ -1625,10 +1625,15 @@ $_LANG['domainsearch'] = "Buscar Dominio";
 $_LANG['domainfindperfect'] = " Encuentra el Dominio Perfecto.";
 $_LANG['domainentername'] = "Ingrese el nombre de dominio aquí";
 $_LANG['domainwriteadomainname'] = "Escribe un nombre de dominio.";
-$_LANG['domain'] = "";
-$_LANG['domain'] = "";
-$_LANG['domain'] = "";
-$_LANG['domain'] = "";
+$_LANG['domainselectyourtdl'] = "Seleccione tu TDL";
+$_LANG['domaindomaincheckavailability'] = "Ver disponibilidad";
+$_LANG['domainselectyour'] = "Selecciona tu";
+$_LANG['domainyoudomain'] = "dominio";
+$_LANG['domainyoudomain'] = "dominio";
+$_LANG['domainyoudomain'] = "dominio";
+$_LANG['domainyoudomain'] = "dominio";
+$_LANG['domainyoudomain'] = "dominio";
+$_LANG['domainyoudomain'] = "dominio";
 
 
 
