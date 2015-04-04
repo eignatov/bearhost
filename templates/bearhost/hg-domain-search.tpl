@@ -183,7 +183,7 @@
   <div class="section_holder4 two">
     <div class="container">
       <div class="one_half">
-        <h1 class="lt_title_big_left white">Domain <span>Features</span></h1>
+        <h1 class="lt_title_big_left white">Dominio <span>Caracteristicas</span></h1>
         <div class="clearfix"></div>
         <div class="section_title_line four"></div>
         <div class="clearfix"></div>
@@ -193,22 +193,22 @@
               <li>
                 <div class="one_third">
                   <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe086;"></span></div>
-                  <h5 class="white lessmar2">Email Forward</h5>
-                  <p class="white">Lorem ipsum dolor sit adipiscing amet sit et sit justo elit ipsum.</p>
+                  <h5 class="white lessmar2">Reenvio de Email</h5>
+                  <p class="white">reenvia todos tus emails a cualquier dominio</p>
                 </div>
                 <!--end item-->
                 
                 <div class="one_third active">
                   <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe037;"></span></div>
-                  <h5 class="white lessmar2">DNS Control</h5>
-                  <p class="white">Lorem ipsum dolor sit adipiscing amet sit et sit justo elit ipsum.</p>
+                  <h5 class="white lessmar2">Control DNS</h5>
+                  <p class="white">controla y edita la zona DNS.</p>
                 </div>
                 <!--end item-->
                 
                 <div class="one_third last">
                   <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe08e;"></span></div>
-                  <h5 class="white lessmar2">Protect Your Privacy</h5>
-                  <p class="white">Lorem ipsum dolor sit adipiscing amet sit et sit justo elit ipsum.</p>
+                  <h5 class="white lessmar2">Proteje tu Privacidad</h5>
+                  <p class="white">protege tu informacion y detalles de dominio.</p>
                 </div>
                 <!--end item--> 
                 
@@ -253,9 +253,8 @@
   <div class="clearfix"></div>
   <div class="section_holder5">
     <div class="container">
-      <h1 class="lt_title_big">Check Out our <span>Pricing</span></h1>
+      <h1 class="lt_title_big">Dale una Mirada a <span>Nuestros Precios</span></h1>
       <div class="lt_title_line"></div>
-      <p class="lt_title_bottomtext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue</p>
       <div class="one_full">
         <div class="domain_pricetable_holder">
           <div class="table-style">
