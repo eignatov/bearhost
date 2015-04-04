@@ -2193,6 +2193,55 @@ label.custom-select3 {
 .footer1 .quick_links li a:hover {
 	color: #fff;
 }
+.footer1 .affiliates {
+	width: 100%;
+	float: left;
+	padding: 0px 0px 23px 0px;
+	margin: 0px;
+}
+/*hover styles*/
+.footer1 .affiliates:hover .icon {
+	background-color: #161616;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.footer1.affiliates:hover h6 {
+	color: #119ee7;
+}
+.footer1 .affiliates.active .icon {
+	background-color: #161616;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.footer1 .affiliates.active h6 {
+	color: #119ee7;
+}
+.footer1 .affiliates .icon {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding: 0px;
+	color: #fff;
+	text-align: center;
+	margin: 0px 15px 0px 0px;
+	font-size: 24px;
+	line-height: 73px;
+	background-color: #119ee7;
+	border-radius: 100%;
+	transition-property: background-color, color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.footer1.affiliates .text {
+	width: 75%;
+	float: left;
+	padding: 0px;
+	text-align: left;
+	margin: 0px;
+}
+
 .newsletter {
 	padding: 0px;
 	margin: 0px;
