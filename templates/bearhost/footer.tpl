@@ -54,10 +54,11 @@
     </div>
     <div class="one_third last">
     <h4 class="white">Affiliate Program</h4>
+        <div class="footer_title_line"></div>
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe060;"></span></div>
       <div class="text">
-        <h6 class="lessmar2">Sign Up</h6>
+        <h6 class="white">Sign Up</h6>
         <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
       </div>
     </div>
@@ -66,7 +67,7 @@
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe001;"></span></div>
       <div class="text">
-        <h6 class="lessmar2">Refer Customers</h6>
+        <h6 class="white">Refer Customers</h6>
         <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
       </div>
     </div>
@@ -75,7 +76,7 @@
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe06b;"></span></div>
       <div class="text">
-        <h6 class="lessmar2">Earn Money</h6>
+        <h6 class="white">Earn Money</h6>
         <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
       </div>
     </div>
@@ -190,74 +191,74 @@
 <script>
 (function() {
 
-		var $container = $('.acc-container'),
-			$trigger   = $('.acc-trigger');
+    var $container = $('.acc-container'),
+      $trigger   = $('.acc-trigger');
 
-		$container.hide();
-		$trigger.first().addClass('active').next().show();
+    $container.hide();
+    $trigger.first().addClass('active').next().show();
 
-		var fullWidth = $container.outerWidth(true);
-		$trigger.css('width', fullWidth);
-		$container.css('width', fullWidth);
-		
-		$trigger.on('click', function(e) {
-			if( $(this).next().is(':hidden') ) {
-				$trigger.removeClass('active').next().slideUp(300);
-				$(this).toggleClass('active').next().slideDown(300);
-			}
-			e.preventDefault();
-		});
+    var fullWidth = $container.outerWidth(true);
+    $trigger.css('width', fullWidth);
+    $container.css('width', fullWidth);
+    
+    $trigger.on('click', function(e) {
+      if( $(this).next().is(':hidden') ) {
+        $trigger.removeClass('active').next().slideUp(300);
+        $(this).toggleClass('active').next().slideDown(300);
+      }
+      e.preventDefault();
+    });
 
-		// Resize
-		$(window).on('resize', function() {
-			fullWidth = $container.outerWidth(true)
-			$trigger.css('width', $trigger.parent().width() );
-			$container.css('width', $container.parent().width() );
-		});
+    // Resize
+    $(window).on('resize', function() {
+      fullWidth = $container.outerWidth(true)
+      $trigger.css('width', $trigger.parent().width() );
+      $container.css('width', $container.parent().width() );
+    });
 
-	})();
-	
-	
+  })();
+  
+  
 $( document ).ready(function() {
 
-	$( "table" ).removeClass( "renewals" ).addClass( "table table-striped table-framed" );
-	
-	$("table-list3").find('br').remove(); 
-	$("textcenter").find('br').remove();
-	$( "input[value='View Cart']" ).addClass("readmore_but5");
-	$( "input[value='View Cart']" ).addClass("nofloat");
-	$( "input[value='Order Now »']" ).addClass("nofloat");
-	$( "input[value='Order Now »']" ).addClass("readmore_but4");
-	$( "input[value='Order Now']" ).addClass("readmore_but4");
-	$( "input[value='Order Now']" ).addClass("nofloat");
-	$( "input[value='Check Availability']" ).removeClass( "btn btn-primary btn-large").addClass("readmore_but5");
-	$( "input[value='Check Availability']" ).addClass("nofloat");
-	$( "input[value=' Check Availability ']" ).removeClass( "btn btn-primary btn-large").addClass("readmore_but5");
-	$( "input[value=' Check Availability ']" ).addClass("nofloat");
-	$( "input[value='Transfer']" ).removeClass( "btn btn-success btn-large").addClass("readmore_but5");
-	$( "input[value='Transfer']" ).addClass("nofloat");
-	$( "input[value='Transfer']" ).addClass("transfer");
-	$( "input[value='Order Hosting Only']" ).removeClass( "btn btn-success btn-large").addClass("readmore_but4");
-	$( "input[value='Order Hosting Only']" ).addClass("nofloat");
-	$( "input[value='Submit']" ).removeClass( "btn btn-primary").addClass("readmore_but5");
-	$( "input[value='Submit']" ).addClass("nofloat");
-	$( "input[value='Save Changes']" ).removeClass( "btn btn-primary").addClass("readmore_but5");
-	$( "input[value='Save Changes']" ).addClass("nofloat");
-	$( "input[value='Cancel']" ).removeClass( "btn btn-primary").addClass("readmore_but5");
-	$( "input[value='Cancel']" ).addClass("nofloat");
-	$( "input[value='Cancel']" ).addClass("transfer");
-	
-		
-	$( "input[value='Empty Cart']" ).addClass("readmore_but5");
-	$( "input[value='Empty Cart']" ).addClass("nofloat");
-	$( "input[value='Add to Cart']" ).addClass("readmore_but5");
-	$( "input[value='Add to Cart']" ).addClass("nofloat");
-	
-	$( "input[value='Continue Shopping']" ).addClass("readmore_but4");
-	
+  $( "table" ).removeClass( "renewals" ).addClass( "table table-striped table-framed" );
+  
+  $("table-list3").find('br').remove(); 
+  $("textcenter").find('br').remove();
+  $( "input[value='View Cart']" ).addClass("readmore_but5");
+  $( "input[value='View Cart']" ).addClass("nofloat");
+  $( "input[value='Order Now »']" ).addClass("nofloat");
+  $( "input[value='Order Now »']" ).addClass("readmore_but4");
+  $( "input[value='Order Now']" ).addClass("readmore_but4");
+  $( "input[value='Order Now']" ).addClass("nofloat");
+  $( "input[value='Check Availability']" ).removeClass( "btn btn-primary btn-large").addClass("readmore_but5");
+  $( "input[value='Check Availability']" ).addClass("nofloat");
+  $( "input[value=' Check Availability ']" ).removeClass( "btn btn-primary btn-large").addClass("readmore_but5");
+  $( "input[value=' Check Availability ']" ).addClass("nofloat");
+  $( "input[value='Transfer']" ).removeClass( "btn btn-success btn-large").addClass("readmore_but5");
+  $( "input[value='Transfer']" ).addClass("nofloat");
+  $( "input[value='Transfer']" ).addClass("transfer");
+  $( "input[value='Order Hosting Only']" ).removeClass( "btn btn-success btn-large").addClass("readmore_but4");
+  $( "input[value='Order Hosting Only']" ).addClass("nofloat");
+  $( "input[value='Submit']" ).removeClass( "btn btn-primary").addClass("readmore_but5");
+  $( "input[value='Submit']" ).addClass("nofloat");
+  $( "input[value='Save Changes']" ).removeClass( "btn btn-primary").addClass("readmore_but5");
+  $( "input[value='Save Changes']" ).addClass("nofloat");
+  $( "input[value='Cancel']" ).removeClass( "btn btn-primary").addClass("readmore_but5");
+  $( "input[value='Cancel']" ).addClass("nofloat");
+  $( "input[value='Cancel']" ).addClass("transfer");
+  
+    
+  $( "input[value='Empty Cart']" ).addClass("readmore_but5");
+  $( "input[value='Empty Cart']" ).addClass("nofloat");
+  $( "input[value='Add to Cart']" ).addClass("readmore_but5");
+  $( "input[value='Add to Cart']" ).addClass("nofloat");
+  
+  $( "input[value='Continue Shopping']" ).addClass("readmore_but4");
+  
 
 });
-	
+  
 </script> 
 {/literal} 
 
