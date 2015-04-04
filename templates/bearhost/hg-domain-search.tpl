@@ -154,25 +154,23 @@
       <div class="box">
         <h1 class="bold lessmar">.com</h1>
         <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotcomdashed}</span> &nbsp;{$LANG.domainpricedotcom}</h4>
-        <p>{$LANG.domaintextdomain}</p>
+        <p>{$LANG.domaintextdotcom}</p>
         <br/>
         <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item-->
       
       <div class="box two">
         <h1 class="bold lessmar">.org</h1>
-        <h4 class="uppercase lessmar"><span class="dashed">$12.99</span> &nbsp;$10.99</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer sit 
-          adipiscing elit Suspendisse et</p>
+        <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotorgdashed}</span> &nbsp;{$LANG.domainpricedotorg}</h4>
+        <p>{$LANG.domaintextdotorg}</p>
         <br/>
         <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item-->
       
       <div class="box three">
         <h1 class="bold lessmar">.net</h1>
-        <h4 class="uppercase lessmar"><span class="dashed">$12.99</span> &nbsp;$10.99</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer sit 
-          adipiscing elit Suspendisse et</p>
+        <h4 class="uppercase lessmar"><span class="dashed">{$LANG.domainpricedotnetdashed}</span> &nbsp;${$LANG.domainpricedotnet}</h4>
+        <p>{$LANG.domaintextdotnet}</p>
         <br/>
         <a href="#">{$LANG.domainsregister}</a> </div>
       <!--end item--> 
