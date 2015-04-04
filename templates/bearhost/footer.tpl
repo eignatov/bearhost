@@ -22,16 +22,16 @@
 <div class="footer1 two">
   <div class="container">
     <div class="one_third">
-      <h4 class="white">About HostGrid</h4>
+      <h4 class="white">Acerca de HostGrid</h4>
       <div class="footer_title_line"></div>
       <ul class="quick_links">
-        <li><a href="#">About US</a></li>
-        <li><a href="#">Contact US</a></li>
-        <li><a href="#">Hosting Plans</a></li>
-        <li><a href="#">Affiliates</a></li>
-        <li><a href="#">Our History</a></li>
-        <li><a href="#">Tech Support</a></li>
-        <li><a href="#">My Account</a></li>
+        <li><a href="hg-about.php">Acerca de Nosotros</a></li>
+        <li><a href="hg-contact.php">Contactenos</a></li>
+        <li><a href="hg-webhosting.php">Planes de Hosting</a></li>
+        <li><a href="hg-affiliates.php">Afiliados</a></li>
+        <li><a href="hg-about.php">Nuestra historia</a></li>
+        <li><a href="knowledgebase.php">Soporte</a></li>
+        <li><a href="clientarea.php">Mi cuenta</a></li>
       </ul>
     </div>
     <!--end about HostGrid-->
@@ -40,26 +40,23 @@
       <h4 class="white">Products & Services</h4>
       <div class="footer_title_line"></div>
       <ul class="quick_links">
-        <li><a href="#">Website Management</a></li>
-        <li><a href="#">Domain Services</a></li>
-        <li><a href="#">Email Services</a></li>
-        <li><a href="#">E-Commerce Services</a></li>
+        <li><a href="#">Web Hosting</a></li>
+        <li><a href="#">Dominios Web</a></li>
+        <li><a href="#">Email Marketing</a></li>
+        <li><a href="#">SSL</a></li>
+        <li><a href="#">VPS</a></li>
+        <li><a href="#">Servidores dedicados</a></li>
         <li><a href="#">Scripting & Add-ons</a></li>
-        <li><a href="#">Marketing Services</a></li>
-        <li><a href="#">E-Commerce Services</a></li>
-        <li><a href="#">Scripting & Add-ons</a></li>
-        <li><a href="#">Terms of Service</a></li>
-        <li><a href="#">Documentation</a></li>
       </ul>
     </div>
     <div class="one_third last">
-    <h4 class="white">Affiliate Program</h4>
+    <h4 class="white">Programa de Afiliado</h4>
         <div class="footer_title_line"></div>
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe060;"></span></div>
       <div class="text">
-        <h6 class="white">Sign Up</h6>
-        <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
+        <h6 class="white"><a href="hg-affiliates.php">Registrese</a></h6>
+        <p>Registrese en nuestro programa de afiliados.</p>
       </div>
     </div>
     <!--end item-->
@@ -67,8 +64,8 @@
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe001;"></span></div>
       <div class="text">
-        <h6 class="white">Refer Customers</h6>
-        <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
+        <h6 class="white">Refiera clientes</h6>
+        <p>Genere ganacia adicional por referir clientes nuevos a nustro sitio. </p>
       </div>
     </div>
     <!--end item-->
@@ -76,8 +73,8 @@
     <div class="affiliates">
       <div class="icon"><span class="glyph-item mega" aria-hidden="true" data-icon="&#xe06b;"></span></div>
       <div class="text">
-        <h6 class="white">Earn Money</h6>
-        <p>Lorem ipsum dolor sit amet sit et justo consectetuer adipiscing elit. </p>
+        <h6 class="white">Gana Dinero</h6>
+        <p>Gana una comisión por cada servicio de adquiera un refererido. </p>
       </div>
     </div>
     <!--end item--> 
