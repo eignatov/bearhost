@@ -21,7 +21,7 @@
 
 <div class="footer1 two">
   <div class="container">
-    <div class="one_fourth">
+    <div class="one_third">
       <h4 class="white">About HostGrid</h4>
       <div class="footer_title_line"></div>
       <ul class="quick_links">
@@ -36,43 +36,7 @@
     </div>
     <!--end about HostGrid-->
     
-    <div class="one_fourth">
-      <h4 class="white">Latest Blog Posts</h4>
-      <div class="footer_title_line"></div>
-      <div class="post_holder first active">
-        <div class="img_holder">
-          <div class="img"><img src="templates/{$template}/html/images/site-img70.jpg" alt="" class="img_size1"/></div>
-        </div>
-        <div class="text"> <a href="#"><span class="bold">Suspendisse imperdiet</span></a>
-          <p>Lorem ipsum dolor sit et</p>
-          <span class="info">By John Doe / 25 July</span> </div>
-      </div>
-      <!--end item-->
-      
-      <div class="post_holder">
-        <div class="img_holder">
-          <div class="img"><img src="templates/{$template}/html/images/site-img71.jpg" alt="" class="img_size1"/></div>
-        </div>
-        <div class="text"> <a href="#"><span class="bold">Suspendisse imperdiet</span></a>
-          <p>Lorem ipsum dolor sit et</p>
-          <span class="info">By John Doe / 25 July</span> </div>
-      </div>
-      <!--end item-->
-      
-      <div class="post_holder last">
-        <div class="img_holder">
-          <div class="img"><img src="templates/{$template}/html/images/site-img72.jpg" alt="" class="img_size1"/></div>
-        </div>
-        <div class="text"> <a href="#"><span class="bold">Suspendisse imperdiet</span></a>
-          <p>Lorem ipsum dolor sit et</p>
-          <span class="info">By John Doe / 25 July</span> </div>
-      </div>
-      <!--end item--> 
-      
-    </div>
-    <!--end products and services-->
-    
-    <div class="one_fourth">
+    <div class="one_third">
       <h4 class="white">Products & Services</h4>
       <div class="footer_title_line"></div>
       <ul class="quick_links">
@@ -88,13 +52,39 @@
         <li><a href="#">Documentation</a></li>
       </ul>
     </div>
-    <div class="one_fourth last">
-        <h4 class="white">Know More</h4>
-        <div class="footer_title_line"></div>
-        <ul class="quick_links">
-          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commyolk augue. Aliquam ornare hendrerit augue. Cras tellus. In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commyolk augue...</li>
-          <a href="#" style="color:#38C4FF; float:right;">read more</a>
+    <div class="one_third last">
+    <h4 class="padd_bot2">{$LANG.homecheaphosting}</h4>
+    <ul class="tabs11">
+      <li><a href="#example-11-tab-1" target="_self">{$LANG.homewhatsinclude} </a></li>
+      <li><a class="last" href="#example-11-tab-2" target="_self">{$LANG.hometransferyoursite}</a></li>
+    </ul>
+    <div class="tabs-content11">
+
+      <div id="example-11-tab-1" class="tabs-panel11">
+        <ul class="tablist">
+          <li><i class="fa fa-check"></i> Unlimited disk space</li>
+          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
+          <li><i class="fa fa-check"></i> Host unlimited domains</li>
+          <li><i class="fa fa-check"></i> Free domain registration</li>
+          <li><i class="fa fa-check"></i> Free SiteLock security suite (a $120 value)</li>
+          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
         </ul>
+        <a href="#" class="readmore_but3">Sign Up Now</a> </div>
+      <!-- end tab 1 -->
+      
+      <div id="example-11-tab-2" class="tabs-panel11">
+        <ul class="tablist">
+          <li><i class="fa fa-check"></i> Unlimited disk space</li>
+          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
+          <li><i class="fa fa-check"></i> Host unlimited domains</li>
+          <li><i class="fa fa-check"></i> Free domain registration</li>
+          <li><i class="fa fa-check"></i> Free SiteLock security suite (a $120 value)</li>
+          <li><i class="fa fa-check"></i> Unlimited bandwidth</li>
+        </ul>
+        <a href="#" class="readmore_but3">Sign Up Now</a> </div>
+      <!-- end tab 2 --> 
+      
+    </div>
       </div>
     <!--end need help--> 
   </div>
