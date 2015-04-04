@@ -159,8 +159,10 @@
                     <li class="dropdown"> <a href="#" data-toggle="dropdown" class="dropdown-toggle {if $filename == 'hg-webhosting' || $filename == 'hg-dedicated-hosting' || $filename == 'hg-shared-hosting' || $filename == 'hg-vps-hosting' || $filename == 'hg-vps-hosting-slider'}active{/if}"> Hosting</a>
                       <ul class="dropdown-menu" role="menu">
                         <li><a href="hg-webhosting.php">Web Hosting</a></li>
+                        <!-- Activar cuando se cree los paquetes y el panel administrativo 
                         <li><a href="hg-dedicated-hosting.php">Dedicated Hosting</a></li>
                         <li><a href="hg-vps-hosting-slider.php">VPS Hosting</a></li>
+                        -->
                       </ul>
                     </li>
                     
